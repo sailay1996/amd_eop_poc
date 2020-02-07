@@ -1,0 +1,27 @@
+#########
+AMD User Experience Program Launcher from Radeon software
+
+Product name: AUEPLauncher 
+Product version: 1.0.0.1
+
+Product name: AUEPMaster 
+Product version: 1950.15.1.117
+
+
+
+#########
+Note:  
+run exploit.bat script immediately after reboot.
+before you run exploit script, you need to check "send" folder.
+C:\> dir C:\ProgramData\AMD\PPC\send
+you will get keyword like this "A39F24CA-A49E-43E1-B078-2FE6809835F2"
+and you need to change that keyword in exploit.bat
+(If there is no file in send folder,create file in upload and restart service(or reboot). 
+Then, check again in "send" folder.)
+
+#########
+file operation flow
+C:\ProgramData\AMD\PPC\upload\hello123.txt
+C:\ProgramData\AMD\PPC\temp\A39F24CA-A49E-43E1-B078-2FE6809835F2_hello123.txt
+C:\ProgramData\AMD\PPC\temp\A39F24CA-A49E-43E1-B078-2FE6809835F2_hello123.txt.gz
+C:\ProgramData\AMD\PPC\send\A39F24CA-A49E-43E1-B078-2FE6809835F2_hello123.txt.gz
