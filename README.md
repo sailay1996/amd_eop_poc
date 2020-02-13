@@ -1,4 +1,4 @@
-# amd_eop_poc
+# amd_eop_poc (CVE-2020-8950)
 AMD User Experience Program Launcher from Radeon Software Privilege Escalation (FileWrite eop) <br>
 ***Read the note.txt*** 
 
