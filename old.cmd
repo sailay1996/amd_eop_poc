@@ -1,5 +1,5 @@
 @echo off 
 timeout 30
-copy /Y WindowsCoreDeviceInfo.dll C:\windows\system32\WindowsCoreDeviceInfo
+copy /Y WindowsCoreDeviceInfo.dll C:\windows\system32\WindowsCoreDeviceInfo.dll
 UsoDllLoader.exe 
 
